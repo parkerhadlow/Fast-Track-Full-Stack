@@ -1,0 +1,67 @@
+
+
+.header{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 5px white;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline white;
+    text-underline-offset: 6px;
+    font-size: 19pt;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+.centeredText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.centeredText a{
+    display: inline;
+}
+
+.splitBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    margin: 50px;
+}
+
+.splitLeft, 
+.splitRight{
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.textBlock, .imgBlock{
+    flex: 1;
+}
+
+.imgBlock img{
+    max-width: 100%;
+    height: auto;
+}
